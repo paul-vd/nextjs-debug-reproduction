@@ -1,4 +1,8 @@
-/** Add your relevant code here for the issue to reproduce */
+import NextLogo from "./next.svg";
 export default function Home() {
-  return null;
+  return (
+    <div>
+      Should Display Logo: <NextLogo />
+    </div>
+  );
 }
